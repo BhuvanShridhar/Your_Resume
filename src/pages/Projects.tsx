@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
     {
       id: 3,
       title: "AI Powered PERSONAL FINANCE MANAGER",
-      description: "AI-Powered Personal Finance Manager – a smart solution to track your expenses effortlessly. Integrated with an AI bot, it helps you monitor your finances and provides real-time insights for better money management.(Put Username as user and Password as pass",
+      description: "AI-Powered Personal Finance Manager – a smart solution to track your expenses effortlessly. Integrated with an AI bot, it helps you monitor your finances and provides real-time insights for better money management.****(Put Username as user and Password as pass)****",
       image: "finance.jpeg",
       technologies: ["React", "Tailwind CSS", "HTML/CSS","JavaScript","mangoDB","api"],
       demoUrl: "https://ai-powered-personal-finance-manager.vercel.app/",
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
       description: "Notes App – a user-friendly platform where you can create deadlines, add notes, and share them effortlessly with others for seamless collaboration and accessibility",
       image: "notes app.jpeg",
       technologies: ["JavaScript", "HTML/CSS", "Firebase"],
-      demoUrl: "https://github.com/PritamP20/Notes-App.git",
+      demoUrl: "https://smartnotes-zeta.vercel.app/",
       githubUrl: "https://github.com/PritamP20/Notes-App"
     },
   ];
