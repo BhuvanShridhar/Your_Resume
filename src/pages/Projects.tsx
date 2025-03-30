@@ -33,7 +33,7 @@ const Projects: React.FC = () => {
       description: "Green Energy Exchange is a platform for seamless energy trading, enabling both producers and sellers to log in and trade efficiently. The platform also integrates with MetaMask, allowing secure and decentralized transactions.",
       image: "Tackling-the-shift-to-renewable-energy-trading.jpg",
       technologies: ["Vite", "TypeScript", "React", "shadcn-ui","Tailwind CSS","solidity","ethers.js","web3.js"],
-      demoUrl: "https://example.com/demo2",
+      demoUrl: "https://green-energy-exchange.vercel.app/",
       githubUrl: "https://github.com/gettrilled/green-energy-exchange"
     },
     {
