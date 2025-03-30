@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
       description: "My personal portfolio website showcasing my skills, projects, and professional experience.",
       image: "shutterstock_1074499718-scaled.jpg",
       technologies: ["Vite", "TypeScript", "React", "shadcn-ui","Tailwind CSS"],
-      demoUrl: "https://example.com/demo1",
+      demoUrl: "https://your-resume.vercel.app/",
       githubUrl: "https://github.com/BhuvanShridhar/Your_Resume"
     },
     {
