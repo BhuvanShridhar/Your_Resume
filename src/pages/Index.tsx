@@ -64,7 +64,7 @@ const Index: React.FC = () => {
             >
               <div className="aspect-video bg-gray-200">
                 <img 
-                  src={`https://picsum.photos/600/400?random=${num}`} 
+                  src={`View_all.png`} 
                   alt={`Project ${num}`}
                   className="w-full h-full object-cover"
                 />
@@ -72,7 +72,7 @@ const Index: React.FC = () => {
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">Project {num}</h3>
                 <p className="text-portfolio-muted mb-4">
-                  A brief description of this amazing project and the technologies used.
+                  
                 </p>
                 <Button asChild variant="link" className="p-0 h-auto font-medium text-portfolio-accent">
                   <Link to={`/projects#project-${num}`}>
