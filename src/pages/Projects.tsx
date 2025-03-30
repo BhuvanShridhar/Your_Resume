@@ -39,10 +39,10 @@ const Projects: React.FC = () => {
     {
       id: 3,
       title: "AI Powered PERSONAL FINANCE MANAGER",
-      description: "AI-Powered Personal Finance Manager – a smart solution to track your expenses effortlessly. Integrated with an AI bot, it helps you monitor your finances and provides real-time insights for better money management.",
+      description: "AI-Powered Personal Finance Manager – a smart solution to track your expenses effortlessly. Integrated with an AI bot, it helps you monitor your finances and provides real-time insights for better money management.(Put Username as user and Password as pass",
       image: "finance.jpeg",
       technologies: ["React", "Tailwind CSS", "HTML/CSS","JavaScript","mangoDB","api"],
-      demoUrl: "https://example.com/demo3",
+      demoUrl: "https://ai-powered-personal-finance-manager.vercel.app/",
       githubUrl: "https://github.com/BhuvanShridhar/AI-Powered_PERSONAL_FINANCE_MANAGER"
     },
     {
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
       description: "In the Rock vs Mine project, the goal is to predict whether the input coordinates correspond to a rock or a mine, based on a machine learning model. However, before making predictions, the raw data must undergo preprocessing to ensure it is in the right format and optimized for the model. Preprocessing typically involves steps like handling missing values, feature scaling, and encoding categorical data, among others. To achieve this, it is crucial to import several important libraries.",
       image: "Rock_VS_MINE.jpg",
       technologies: ["python"],
-      demoUrl: "https://github.com/BhuvanShridhar/Rock-Vs-Mine.git",
+      demoUrl: "https://github.com/BhuvanShridhar/Rock-Vs-Mine/blob/main/rock_vs_mine_prediction.py",
       githubUrl: "https://github.com/BhuvanShridhar/Rock-Vs-Mine"
     },
     {
