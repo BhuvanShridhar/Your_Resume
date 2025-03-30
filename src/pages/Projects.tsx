@@ -20,58 +20,49 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-commerce Website",
-      description: "A fully responsive e-commerce platform built with React, featuring product listings, shopping cart, and checkout functionality.",
-      image: "https://picsum.photos/800/600?random=1",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      title: "My Resume",
+      description: "My personal portfolio website showcasing my skills, projects, and professional experience.",
+      image: "shutterstock_1074499718-scaled.jpg",
+      technologies: ["Vite", "TypeScript", "React", "shadcn-ui","Tailwind CSS"],
       demoUrl: "https://example.com/demo1",
-      githubUrl: "https://github.com/yourusername/project1"
+      githubUrl: "https://github.com/BhuvanShridhar/Your_Resume"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A productivity application that helps users organize tasks, set deadlines, and track progress on various projects.",
-      image: "https://picsum.photos/800/600?random=2",
-      technologies: ["React", "TypeScript", "Firebase"],
+      title: "Green Energy Exchange",
+      description: "Green Energy Exchange is a platform for seamless energy trading, enabling both producers and sellers to log in and trade efficiently. The platform also integrates with MetaMask, allowing secure and decentralized transactions.",
+      image: "Tackling-the-shift-to-renewable-energy-trading.jpg",
+      technologies: ["Vite", "TypeScript", "React", "shadcn-ui","Tailwind CSS","solidity","ethers.js","web3.js"],
       demoUrl: "https://example.com/demo2",
-      githubUrl: "https://github.com/yourusername/project2"
+      githubUrl: "https://github.com/gettrilled/green-energy-exchange"
     },
     {
       id: 3,
-      title: "Portfolio Website",
-      description: "A personal portfolio website showcasing my skills, projects, and professional experience.",
-      image: "https://picsum.photos/800/600?random=3",
-      technologies: ["React", "Tailwind CSS", "Framer Motion"],
+      title: "AI Powered PERSONAL FINANCE MANAGER",
+      description: "AI-Powered Personal Finance Manager – a smart solution to track your expenses effortlessly. Integrated with an AI bot, it helps you monitor your finances and provides real-time insights for better money management.",
+      image: "finance.jpeg",
+      technologies: ["React", "Tailwind CSS", "HTML/CSS","JavaScript","mangoDB","api"],
       demoUrl: "https://example.com/demo3",
-      githubUrl: "https://github.com/yourusername/project3"
+      githubUrl: "https://github.com/BhuvanShridhar/AI-Powered_PERSONAL_FINANCE_MANAGER"
     },
     {
       id: 4,
-      title: "Weather Application",
-      description: "A weather forecasting application that displays current conditions and weekly forecasts based on user location.",
-      image: "https://picsum.photos/800/600?random=4",
-      technologies: ["JavaScript", "OpenWeather API", "HTML/CSS"],
-      demoUrl: "https://example.com/demo4",
-      githubUrl: "https://github.com/yourusername/project4"
+      title: "Rock Vs Mine",
+      description: "In the Rock vs Mine project, the goal is to predict whether the input coordinates correspond to a rock or a mine, based on a machine learning model. However, before making predictions, the raw data must undergo preprocessing to ensure it is in the right format and optimized for the model. Preprocessing typically involves steps like handling missing values, feature scaling, and encoding categorical data, among others. To achieve this, it is crucial to import several important libraries.",
+      image: "Rock_VS_MINE.jpg",
+      technologies: ["python"],
+      demoUrl: "https://github.com/BhuvanShridhar/Rock-Vs-Mine.git",
+      githubUrl: "https://github.com/BhuvanShridhar/Rock-Vs-Mine"
     },
     {
       id: 5,
-      title: "Blog Platform",
-      description: "A content management system allowing users to create, edit, and publish blog posts with rich text formatting.",
-      image: "https://picsum.photos/800/600?random=5",
-      technologies: ["Next.js", "GraphQL", "PostgreSQL"],
-      demoUrl: "https://example.com/demo5",
-      githubUrl: "https://github.com/yourusername/project5"
+      title: "Notes App",
+      description: "Notes App – a user-friendly platform where you can create deadlines, add notes, and share them effortlessly with others for seamless collaboration and accessibility",
+      image: "notes app.jpeg",
+      technologies: ["JavaScript", "HTML/CSS", "Firebase"],
+      demoUrl: "https://github.com/PritamP20/Notes-App.git",
+      githubUrl: "https://github.com/PritamP20/Notes-App"
     },
-    {
-      id: 6,
-      title: "Social Media Dashboard",
-      description: "An analytics dashboard for tracking engagement metrics across various social media platforms.",
-      image: "https://picsum.photos/800/600?random=6",
-      technologies: ["Vue.js", "D3.js", "Express"],
-      demoUrl: "https://example.com/demo6",
-      githubUrl: "https://github.com/yourusername/project6"
-    }
   ];
 
   return (
